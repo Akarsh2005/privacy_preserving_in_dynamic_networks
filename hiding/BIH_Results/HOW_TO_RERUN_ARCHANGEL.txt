@@ -1,0 +1,48 @@
+======================================================================
+HOW TO RE-RUN ARCHANGEL ON MODIFIED NETWORKS
+======================================================================
+
+The BIH algorithm has modified your networks to hide overlapping nodes.
+Follow these steps to verify if the hiding was successful:
+
+STEP 1: Prepare the modified network file
+----------------------------------------------------------------------
+Modified network files are in:
+  BIH_Results\modified_networks/
+
+Each file is named: mergesplit.tXX.edges_modified
+
+STEP 2: Create a combined file (if needed)
+----------------------------------------------------------------------
+If you want to analyze all modified snapshots together:
+  - Concatenate all mergesplit.tXX.edges_modified files
+  - OR run ArchAngel on each snapshot individually
+
+STEP 3: Run ArchAngel
+----------------------------------------------------------------------
+Use your existing run_detection.py script, but point to the modified file:
+
+  import angel as a
+  
+  aa = a.ArchAngel(
+      network_filename='BIH_Results/modified_networks/mergesplit.tXX.edges_modified',
+      threshold=0.35,
+      match_threshold=0.35,
+      min_comsize=3,
+      save=True,
+      outfile_path='BIH_Results/archangel_after_bih'
+  )
+  aa.execute()
+
+STEP 4: Compare results
+----------------------------------------------------------------------
+Compare the new community files with the original ones:
+  - Check if hidden nodes are now in single communities
+  - Calculate ONMI between original and modified structures
+  - Review the reports in BIH_Results/reports/
+
+STEP 5: Restore original (if needed)
+----------------------------------------------------------------------
+Original networks are untouched in GroundTruth/ directory.
+Modified networks are separate files, so you can always revert.
+

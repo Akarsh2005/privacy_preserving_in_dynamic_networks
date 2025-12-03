@@ -1,0 +1,24 @@
+==============================================================
+Overlapping Dynamic Data Benchmark Generator - Version History
+==============================================================
+
+Version:    2016-12-20
+-------------------------
+* Remove warnings, update documentation.
+
+Version:    2010-10-20
+-------------------------
+* Removed issue where birth/death generator gets stuck after running out of new nodes.
+
+Version:    2010-10-05
+-------------------------
+* Added support for generation of overlapping dynamic communities.
+
+Version:    2010-10-04
+-------------------------
+* Updated documentation, licensing.
+* Prevented edge case where orphan nodes may be generated.
+
+Version:    2010-03-15
+-------------------------
+* Initial internal version.

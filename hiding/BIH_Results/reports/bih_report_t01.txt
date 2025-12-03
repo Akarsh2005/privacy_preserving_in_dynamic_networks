@@ -1,0 +1,406 @@
+BIH HIDING REPORT - t01
+======================================================================
+
+NETWORK STATISTICS
+----------------------------------------------------------------------
+Original network: 200 nodes, 1025 edges
+Modified network: 200 nodes, 1029 edges
+Edge changes: +4
+Communities detected: 14
+
+BIH MODIFICATIONS SUMMARY
+----------------------------------------------------------------------
+Nodes processed: 22
+Total edge additions: 107
+Total edge deletions: 103
+Net edge change: +4
+
+PER-NODE HIDING DETAILS
+======================================================================
+
+[1] Node: 192
+----------------------------------------------------------------------
+Original communities: C0, C11
+Target community: C0
+Modifications: 7 total (2 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 192 <-> 81 (community: C0)
+  [1] - DELETE: 192 <-> 149 (community: C11)
+  [2] + ADD: 192 <-> 40 (community: C0)
+  [2] - DELETE: 192 <-> 148 (community: C11)
+  [3] - DELETE: 192 <-> 123 (community: C11)
+  [4] - DELETE: 192 <-> 151 (community: C11)
+  [5] - DELETE: 192 <-> 124 (community: C11)
+
+[2] Node: 114
+----------------------------------------------------------------------
+Original communities: C1, C9
+Target community: C9
+Modifications: 8 total (5 adds, 3 deletes)
+
+Modification details:
+  [1] + ADD: 114 <-> 158 (community: C9)
+  [1] - DELETE: 114 <-> 109 (community: C1)
+  [2] + ADD: 114 <-> 140 (community: C9)
+  [2] - DELETE: 114 <-> 163 (community: C1)
+  [3] + ADD: 114 <-> 76 (community: C9)
+  [3] - DELETE: 114 <-> 108 (community: C1)
+  [4] + ADD: 114 <-> 46 (community: C9)
+  [5] + ADD: 114 <-> 87 (community: C9)
+
+[3] Node: 163
+----------------------------------------------------------------------
+Original communities: C1, C12
+Target community: C12
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 163 <-> 184 (community: C12)
+  [1] - DELETE: 163 <-> 134 (community: C1)
+  [2] + ADD: 163 <-> 125 (community: C12)
+  [2] - DELETE: 163 <-> 84 (community: C1)
+  [3] + ADD: 163 <-> 153 (community: C12)
+  [3] - DELETE: 163 <-> 109 (community: C1)
+  [4] + ADD: 163 <-> 70 (community: C12)
+  [4] - DELETE: 163 <-> 183 (community: C1)
+  [5] + ADD: 163 <-> 183 (community: C12)
+  [5] - DELETE: 163 <-> 183 (community: C1)
+
+[4] Node: 17
+----------------------------------------------------------------------
+Original communities: C1, C5
+Target community: C1
+Modifications: 7 total (5 adds, 2 deletes)
+
+Modification details:
+  [1] + ADD: 17 <-> 135 (community: C1)
+  [1] - DELETE: 17 <-> 196 (community: C5)
+  [2] + ADD: 17 <-> 134 (community: C1)
+  [2] - DELETE: 17 <-> 197 (community: C5)
+  [3] + ADD: 17 <-> 71 (community: C1)
+  [4] + ADD: 17 <-> 42 (community: C1)
+  [5] + ADD: 17 <-> 84 (community: C1)
+
+[5] Node: 183
+----------------------------------------------------------------------
+Original communities: C1, C4, C12
+Target community: C1
+Modifications: 12 total (5 adds, 7 deletes)
+
+Modification details:
+  [1] + ADD: 183 <-> 135 (community: C1)
+  [1] - DELETE: 183 <-> 182 (community: C4)
+  [1] - DELETE: 183 <-> 188 (community: C12)
+  [2] + ADD: 183 <-> 134 (community: C1)
+  [2] - DELETE: 183 <-> 185 (community: C4)
+  [2] - DELETE: 183 <-> 173 (community: C12)
+  [3] + ADD: 183 <-> 17 (community: C1)
+  [3] - DELETE: 183 <-> 153 (community: C12)
+  [4] + ADD: 183 <-> 42 (community: C1)
+  [4] - DELETE: 183 <-> 156 (community: C12)
+  [5] + ADD: 183 <-> 71 (community: C1)
+  [5] - DELETE: 183 <-> 154 (community: C12)
+
+[6] Node: 84
+----------------------------------------------------------------------
+Original communities: C1, C12
+Target community: C12
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 84 <-> 184 (community: C12)
+  [1] - DELETE: 84 <-> 135 (community: C1)
+  [2] + ADD: 84 <-> 125 (community: C12)
+  [2] - DELETE: 84 <-> 134 (community: C1)
+  [3] + ADD: 84 <-> 188 (community: C12)
+  [3] - DELETE: 84 <-> 17 (community: C1)
+  [4] + ADD: 84 <-> 173 (community: C12)
+  [4] - DELETE: 84 <-> 183 (community: C1)
+  [5] + ADD: 84 <-> 163 (community: C12)
+  [5] - DELETE: 84 <-> 163 (community: C1)
+
+[7] Node: 184
+----------------------------------------------------------------------
+Original communities: C2, C12
+Target community: C12
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 184 <-> 182 (community: C12)
+  [1] - DELETE: 184 <-> 142 (community: C2)
+  [2] + ADD: 184 <-> 70 (community: C12)
+  [2] - DELETE: 184 <-> 200 (community: C2)
+  [3] + ADD: 184 <-> 36 (community: C12)
+  [3] - DELETE: 184 <-> 99 (community: C2)
+  [4] + ADD: 184 <-> 25 (community: C12)
+  [4] - DELETE: 184 <-> 100 (community: C2)
+  [5] + ADD: 184 <-> 19 (community: C12)
+  [5] - DELETE: 184 <-> 54 (community: C2)
+
+[8] Node: 200
+----------------------------------------------------------------------
+Original communities: C2, C4
+Target community: C4
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 200 <-> 186 (community: C4)
+  [1] - DELETE: 200 <-> 142 (community: C2)
+  [2] + ADD: 200 <-> 133 (community: C4)
+  [2] - DELETE: 200 <-> 99 (community: C2)
+  [3] + ADD: 200 <-> 190 (community: C4)
+  [3] - DELETE: 200 <-> 100 (community: C2)
+  [4] + ADD: 200 <-> 88 (community: C4)
+  [4] - DELETE: 200 <-> 5 (community: C2)
+  [5] + ADD: 200 <-> 43 (community: C4)
+  [5] - DELETE: 200 <-> 16 (community: C2)
+
+[9] Node: 101
+----------------------------------------------------------------------
+Original communities: C3, C4
+Target community: C3
+Modifications: 9 total (5 adds, 4 deletes)
+
+Modification details:
+  [1] + ADD: 101 <-> 171 (community: C3)
+  [1] - DELETE: 101 <-> 194 (community: C4)
+  [2] + ADD: 101 <-> 162 (community: C3)
+  [2] - DELETE: 101 <-> 195 (community: C4)
+  [3] + ADD: 101 <-> 112 (community: C3)
+  [3] - DELETE: 101 <-> 198 (community: C4)
+  [4] + ADD: 101 <-> 199 (community: C3)
+  [4] - DELETE: 101 <-> 189 (community: C4)
+  [5] + ADD: 101 <-> 147 (community: C3)
+
+[10] Node: 147
+----------------------------------------------------------------------
+Original communities: C3, C13
+Target community: C13
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 147 <-> 180 (community: C13)
+  [1] - DELETE: 147 <-> 171 (community: C3)
+  [2] + ADD: 147 <-> 168 (community: C13)
+  [2] - DELETE: 147 <-> 175 (community: C3)
+  [3] + ADD: 147 <-> 169 (community: C13)
+  [3] - DELETE: 147 <-> 177 (community: C3)
+  [4] + ADD: 147 <-> 167 (community: C13)
+  [4] - DELETE: 147 <-> 162 (community: C3)
+  [5] + ADD: 147 <-> 159 (community: C13)
+  [5] - DELETE: 147 <-> 199 (community: C3)
+
+[11] Node: 159
+----------------------------------------------------------------------
+Original communities: C3, C13
+Target community: C3
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 159 <-> 157 (community: C3)
+  [1] - DELETE: 159 <-> 180 (community: C13)
+  [2] + ADD: 159 <-> 112 (community: C3)
+  [2] - DELETE: 159 <-> 179 (community: C13)
+  [3] + ADD: 159 <-> 101 (community: C3)
+  [3] - DELETE: 159 <-> 168 (community: C13)
+  [4] + ADD: 159 <-> 171 (community: C3)
+  [4] - DELETE: 159 <-> 169 (community: C13)
+  [5] + ADD: 159 <-> 175 (community: C3)
+  [5] - DELETE: 159 <-> 167 (community: C13)
+
+[12] Node: 199
+----------------------------------------------------------------------
+Original communities: C3, C13
+Target community: C13
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 199 <-> 146 (community: C13)
+  [1] - DELETE: 199 <-> 171 (community: C3)
+  [2] + ADD: 199 <-> 145 (community: C13)
+  [2] - DELETE: 199 <-> 175 (community: C3)
+  [3] + ADD: 199 <-> 147 (community: C13)
+  [3] - DELETE: 199 <-> 162 (community: C3)
+  [4] + ADD: 199 <-> 77 (community: C13)
+  [4] - DELETE: 199 <-> 147 (community: C3)
+  [5] + ADD: 199 <-> 147 (community: C13)
+  [5] - DELETE: 199 <-> 147 (community: C3)
+
+[13] Node: 128
+----------------------------------------------------------------------
+Original communities: C4, C5, C11
+Target community: C4
+Modifications: 13 total (5 adds, 8 deletes)
+
+Modification details:
+  [1] + ADD: 128 <-> 195 (community: C4)
+  [1] - DELETE: 128 <-> 197 (community: C5)
+  [1] - DELETE: 128 <-> 151 (community: C11)
+  [2] + ADD: 128 <-> 198 (community: C4)
+  [2] - DELETE: 128 <-> 187 (community: C5)
+  [2] - DELETE: 128 <-> 149 (community: C11)
+  [3] + ADD: 128 <-> 193 (community: C4)
+  [3] - DELETE: 128 <-> 176 (community: C5)
+  [3] - DELETE: 128 <-> 148 (community: C11)
+  [4] + ADD: 128 <-> 191 (community: C4)
+  [4] - DELETE: 128 <-> 174 (community: C5)
+  [4] - DELETE: 128 <-> 98 (community: C11)
+  [5] + ADD: 128 <-> 190 (community: C4)
+
+[14] Node: 131
+----------------------------------------------------------------------
+Original communities: C4, C5
+Target community: C5
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 131 <-> 103 (community: C5)
+  [1] - DELETE: 131 <-> 186 (community: C4)
+  [2] + ADD: 131 <-> 176 (community: C5)
+  [2] - DELETE: 131 <-> 182 (community: C4)
+  [3] + ADD: 131 <-> 182 (community: C5)
+  [3] - DELETE: 131 <-> 182 (community: C4)
+  [4] + ADD: 131 <-> 182 (community: C5)
+  [4] - DELETE: 131 <-> 182 (community: C4)
+  [5] + ADD: 131 <-> 182 (community: C5)
+  [5] - DELETE: 131 <-> 182 (community: C4)
+
+[15] Node: 176
+----------------------------------------------------------------------
+Original communities: C4, C5
+Target community: C5
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 176 <-> 164 (community: C5)
+  [1] - DELETE: 176 <-> 193 (community: C4)
+  [2] + ADD: 176 <-> 182 (community: C5)
+  [2] - DELETE: 176 <-> 181 (community: C4)
+  [3] + ADD: 176 <-> 138 (community: C5)
+  [3] - DELETE: 176 <-> 195 (community: C4)
+  [4] + ADD: 176 <-> 158 (community: C5)
+  [4] - DELETE: 176 <-> 198 (community: C4)
+  [5] + ADD: 176 <-> 79 (community: C5)
+  [5] - DELETE: 176 <-> 194 (community: C4)
+
+[16] Node: 181
+----------------------------------------------------------------------
+Original communities: C4, C5
+Target community: C4
+Modifications: 6 total (5 adds, 1 deletes)
+
+Modification details:
+  [1] + ADD: 181 <-> 82 (community: C4)
+  [2] + ADD: 181 <-> 128 (community: C4)
+  [2] - DELETE: 181 <-> 182 (community: C5)
+  [3] + ADD: 181 <-> 60 (community: C4)
+  [4] + ADD: 181 <-> 200 (community: C4)
+  [5] + ADD: 181 <-> 160 (community: C4)
+
+[17] Node: 182
+----------------------------------------------------------------------
+Original communities: C4, C5, C12
+Target community: C4
+Modifications: 15 total (5 adds, 10 deletes)
+
+Modification details:
+  [1] + ADD: 182 <-> 190 (community: C4)
+  [1] - DELETE: 182 <-> 196 (community: C5)
+  [1] - DELETE: 182 <-> 184 (community: C12)
+  [2] + ADD: 182 <-> 200 (community: C4)
+  [2] - DELETE: 182 <-> 197 (community: C5)
+  [2] - DELETE: 182 <-> 188 (community: C12)
+  [3] + ADD: 182 <-> 160 (community: C4)
+  [3] - DELETE: 182 <-> 176 (community: C5)
+  [3] - DELETE: 182 <-> 173 (community: C12)
+  [4] + ADD: 182 <-> 133 (community: C4)
+  [4] - DELETE: 182 <-> 174 (community: C5)
+  [4] - DELETE: 182 <-> 163 (community: C12)
+  [5] + ADD: 182 <-> 43 (community: C4)
+  [5] - DELETE: 182 <-> 164 (community: C5)
+  [5] - DELETE: 182 <-> 156 (community: C12)
+
+[18] Node: 185
+----------------------------------------------------------------------
+Original communities: C4, C12
+Target community: C4
+Modifications: 5 total (5 adds, 0 deletes)
+
+Modification details:
+  [1] + ADD: 185 <-> 128 (community: C4)
+  [2] + ADD: 185 <-> 60 (community: C4)
+  [3] + ADD: 185 <-> 7 (community: C4)
+  [4] + ADD: 185 <-> 200 (community: C4)
+  [5] + ADD: 185 <-> 160 (community: C4)
+
+[19] Node: 26
+----------------------------------------------------------------------
+Original communities: C4, C12
+Target community: C4
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 26 <-> 185 (community: C4)
+  [1] - DELETE: 26 <-> 188 (community: C12)
+  [2] + ADD: 26 <-> 190 (community: C4)
+  [2] - DELETE: 26 <-> 185 (community: C12)
+  [3] + ADD: 26 <-> 185 (community: C4)
+  [3] - DELETE: 26 <-> 185 (community: C12)
+  [4] + ADD: 26 <-> 185 (community: C4)
+  [4] - DELETE: 26 <-> 185 (community: C12)
+  [5] + ADD: 26 <-> 185 (community: C4)
+  [5] - DELETE: 26 <-> 185 (community: C12)
+
+[20] Node: 158
+----------------------------------------------------------------------
+Original communities: C5, C9
+Target community: C5
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 158 <-> 164 (community: C5)
+  [1] - DELETE: 158 <-> 165 (community: C9)
+  [2] + ADD: 158 <-> 174 (community: C5)
+  [2] - DELETE: 158 <-> 161 (community: C9)
+  [3] + ADD: 158 <-> 131 (community: C5)
+  [3] - DELETE: 158 <-> 140 (community: C9)
+  [4] + ADD: 158 <-> 103 (community: C5)
+  [4] - DELETE: 158 <-> 89 (community: C9)
+  [5] + ADD: 158 <-> 138 (community: C5)
+  [5] - DELETE: 158 <-> 114 (community: C9)
+
+[21] Node: 96
+----------------------------------------------------------------------
+Original communities: C6, C10
+Target community: C10
+Modifications: 8 total (5 adds, 3 deletes)
+
+Modification details:
+  [1] + ADD: 96 <-> 94 (community: C10)
+  [1] - DELETE: 96 <-> 127 (community: C6)
+  [2] + ADD: 96 <-> 95 (community: C10)
+  [2] - DELETE: 96 <-> 105 (community: C6)
+  [3] + ADD: 96 <-> 97 (community: C10)
+  [3] - DELETE: 96 <-> 59 (community: C6)
+  [4] + ADD: 96 <-> 178 (community: C10)
+  [5] + ADD: 96 <-> 115 (community: C10)
+
+[22] Node: 178
+----------------------------------------------------------------------
+Original communities: C8, C10
+Target community: C10
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 178 <-> 117 (community: C10)
+  [1] - DELETE: 178 <-> 120 (community: C8)
+  [2] + ADD: 178 <-> 83 (community: C10)
+  [2] - DELETE: 178 <-> 92 (community: C8)
+  [3] + ADD: 178 <-> 29 (community: C10)
+  [3] - DELETE: 178 <-> 90 (community: C8)
+  [4] + ADD: 178 <-> 37 (community: C10)
+  [4] - DELETE: 178 <-> 62 (community: C8)
+  [5] + ADD: 178 <-> 41 (community: C10)
+  [5] - DELETE: 178 <-> 68 (community: C8)
+

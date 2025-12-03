@@ -1,0 +1,15 @@
+#!/bin/bash
+NAME=gen-dynamic-overlap
+VER=$(cat HISTORY.TXT  | grep Version | grep -v History | head -n 1 | cut -f 2 -d ':'  | sed -e 's/ *//'  | sed -e 's/-//g')
+echo "* Building distribution for version $VER"
+
+OUTDIR=$NAME-$VER
+rm -rf $OUTDIR
+mkdir -p $OUTDIR
+
+cp -rf src $OUTDIR
+cp Makefile $OUTDIR
+cp *.TXT $OUTDIR
+
+echo "* File list:"
+find $OUTDIR -type f

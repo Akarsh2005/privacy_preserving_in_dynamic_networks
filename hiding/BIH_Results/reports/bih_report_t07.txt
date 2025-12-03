@@ -1,0 +1,86 @@
+BIH HIDING REPORT - t07
+======================================================================
+
+NETWORK STATISTICS
+----------------------------------------------------------------------
+Original network: 200 nodes, 1008 edges
+Modified network: 200 nodes, 1002 edges
+Edge changes: -6
+Communities detected: 6
+
+BIH MODIFICATIONS SUMMARY
+----------------------------------------------------------------------
+Nodes processed: 4
+Total edge additions: 14
+Total edge deletions: 20
+Net edge change: -6
+
+PER-NODE HIDING DETAILS
+======================================================================
+
+[1] Node: 124
+----------------------------------------------------------------------
+Original communities: C0, C5
+Target community: C5
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 124 <-> 198 (community: C5)
+  [1] - DELETE: 124 <-> 111 (community: C0)
+  [2] + ADD: 124 <-> 197 (community: C5)
+  [2] - DELETE: 124 <-> 192 (community: C0)
+  [3] + ADD: 124 <-> 180 (community: C5)
+  [3] - DELETE: 124 <-> 136 (community: C0)
+  [4] + ADD: 124 <-> 151 (community: C5)
+  [4] - DELETE: 124 <-> 158 (community: C0)
+  [5] + ADD: 124 <-> 145 (community: C5)
+  [5] - DELETE: 124 <-> 120 (community: C0)
+
+[2] Node: 199
+----------------------------------------------------------------------
+Original communities: C1, C5
+Target community: C5
+Modifications: 10 total (5 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 199 <-> 133 (community: C5)
+  [1] - DELETE: 199 <-> 200 (community: C1)
+  [2] + ADD: 199 <-> 200 (community: C5)
+  [2] - DELETE: 199 <-> 200 (community: C1)
+  [3] + ADD: 199 <-> 200 (community: C5)
+  [3] - DELETE: 199 <-> 200 (community: C1)
+  [4] + ADD: 199 <-> 200 (community: C5)
+  [4] - DELETE: 199 <-> 200 (community: C1)
+  [5] + ADD: 199 <-> 200 (community: C5)
+  [5] - DELETE: 199 <-> 200 (community: C1)
+
+[3] Node: 200
+----------------------------------------------------------------------
+Original communities: C1, C5
+Target community: C1
+Modifications: 9 total (4 adds, 5 deletes)
+
+Modification details:
+  [1] + ADD: 200 <-> 199 (community: C1)
+  [1] - DELETE: 200 <-> 171 (community: C5)
+  [2] - DELETE: 200 <-> 199 (community: C5)
+  [3] + ADD: 200 <-> 199 (community: C1)
+  [3] - DELETE: 200 <-> 199 (community: C5)
+  [4] + ADD: 200 <-> 199 (community: C1)
+  [4] - DELETE: 200 <-> 199 (community: C5)
+  [5] + ADD: 200 <-> 199 (community: C1)
+  [5] - DELETE: 200 <-> 199 (community: C5)
+
+[4] Node: 184
+----------------------------------------------------------------------
+Original communities: C4, C5
+Target community: C4
+Modifications: 5 total (0 adds, 5 deletes)
+
+Modification details:
+  [1] - DELETE: 184 <-> 144 (community: C5)
+  [2] - DELETE: 184 <-> 183 (community: C5)
+  [3] - DELETE: 184 <-> 182 (community: C5)
+  [4] - DELETE: 184 <-> 104 (community: C5)
+  [5] - DELETE: 184 <-> 178 (community: C5)
+
